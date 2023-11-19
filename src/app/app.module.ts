@@ -8,21 +8,27 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
-
-
+import { ConfirmModalComponent } from './confirm-modal/confirm-modal.component';
+import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+import { SellerHomeComponent } from './seller-home/seller-home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
+    ConfirmModalComponent,
     HeaderComponent,
     HomeComponent,
     SellerAuthComponent,
-    SellerAddProductComponent
+    SellerAddProductComponent,
+    SellerHomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModalModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

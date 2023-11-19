@@ -24,6 +24,11 @@ const routes: Routes = [
     path:'seller-add-product',
     component: SellerAddProductComponent,
     canActivate: [AuthGuard]
+  },
+  {
+    path:'seller-product-list',
+    component: SellerHomeComponent,
+    canActivate: [AuthGuard]
   }
 ];
 

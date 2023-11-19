@@ -116,94 +116,76 @@
   ],
   "products": [
     {
-      "name": "ds",
-      "price": "",
-      "color": "",
-      "category": "",
-      "description": "",
-      "image": "",
-      "id": 1
+      "name": "example3",
+      "price": "39.99",
+      "color": "Green",
+      "category": "Outdoor",
+      "description": "Example product 3 description.",
+      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "id": 13
     },
     {
-      "name": "ds",
-      "price": "dsds",
-      "color": "",
-      "category": "",
-      "description": "",
-      "image": "",
-      "id": 2
+      "name": "example4",
+      "price": "49.99",
+      "color": "Yellow",
+      "category": "Sports",
+      "description": "Example product 4 description.",
+      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "id": 14
     },
     {
-      "name": "ds",
-      "price": "ds",
-      "color": "ds",
-      "category": "",
-      "description": "",
-      "image": "",
-      "id": 3
+      "name": "example5",
+      "price": "59.99",
+      "color": "Purple",
+      "category": "Home Decor",
+      "description": "Example product 5 description.",
+      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "id": 15
     },
     {
-      "name": "d",
-      "price": "",
-      "color": "",
-      "category": "",
-      "description": "",
-      "image": "",
-      "id": 4
+      "name": "example6",
+      "price": "69.99",
+      "color": "Orange",
+      "category": "Accessories",
+      "description": "Example product 6 description.",
+      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "id": 16
     },
     {
-      "name": "ds",
-      "price": "",
-      "color": "",
-      "category": "",
-      "description": "",
-      "image": "",
-      "id": 5
+      "name": "example7",
+      "price": "79.99",
+      "color": "Pink",
+      "category": "Beauty",
+      "description": "Example product 7 description.",
+      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "id": 17
     },
     {
-      "name": "ds",
-      "price": "",
-      "color": "",
-      "category": "ds",
-      "description": "",
-      "image": "",
-      "id": 6
+      "name": "example8",
+      "price": "89.99",
+      "color": "Brown",
+      "category": "Furniture",
+      "description": "Example product 8 description.",
+      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "id": 18
     },
     {
-      "name": "ds",
-      "price": "",
-      "color": "",
-      "category": "ds",
-      "description": "",
-      "image": "",
-      "id": 7
+      "name": "example9",
+      "price": "99.99",
+      "color": "Black",
+      "category": "Kitchen",
+      "description": "Example product 9 description.",
+      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "id": 19
     },
     {
-      "name": "ds",
-      "price": "ds",
-      "color": "",
-      "category": "",
-      "description": "",
-      "image": "",
-      "id": 8
-    },
-    {
-      "name": "ds",
-      "price": "ds",
-      "color": "ds",
-      "category": "",
-      "description": "",
-      "image": "",
-      "id": 9
-    },
-    {
-      "name": "",
-      "price": "",
-      "color": "",
-      "category": "",
-      "description": "",
-      "image": "",
-      "id": 10
+      "name": "example10",
+      "price": "109.99",
+      "color": "White",
+      "category": "Travel",
+      "description": "Example product 10 description.",
+      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "id": 20
     }
   ]
 }
