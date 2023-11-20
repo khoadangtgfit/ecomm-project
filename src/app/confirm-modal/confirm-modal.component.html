@@ -1,0 +1,21 @@
+<!-- <div *ngIf="isModalOpen" > -->
+  <div  class="modal" tabindex="-1" role="dialog" id="popup" style="display: block;">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">{{getTitle()}}</h5>
+          <button type="button" (click)="closePopup()" class="btn btn-danger" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Are you sure?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" (click)="handleClick()" [ngClass]="getTitle().toLowerCase().includes('update')? 'btn btn-primary':'btn btn-danger'">{{getTitle()}}</button>
+          <button type="button" (click)="closePopup()" class="btn btn-secondary">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->

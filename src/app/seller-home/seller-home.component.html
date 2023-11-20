@@ -1,0 +1,39 @@
+<div>
+    <h2>Product List</h2>
+<p *ngIf="isDeleteSuccess!==''" [ngClass]="{'success-message': isDeleteSuccess.includes('success'),'error-message':isDeleteSuccess.includes('fail') }">{{isDeleteSuccess}}</p>
+<table class="table table-bordered custom-table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">Product Color</th>
+            <th scope="col">Product Category</th>
+            <th scope="col">Product Description</th>
+            <th scope="col">Product Image</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of productList; let i=index">
+                <th  scope="row">{{item.id}}</th>
+                <td >{{item.name}}</td>
+                <td >{{item.price}}</td>
+                <td>{{item.color}}</td>
+                <td>{{item.category}}</td>
+                <td>{{item.description}}</td>
+                <td>
+                    <img class="product-image" src="{{item.image}}"/>
+                </td>
+                <td class="group-button">
+                    <button (click)="openPopup(false, item.id)" class="btn btn-danger">Delete</button>
+                    <br>
+                    <br>
+                    <button (click)="openPopup(true,item.id)" class="btn btn-primary">Update</button>
+                </td>
+
+    </tr>
+    </tbody>
+</table>
+</div>
+<!-- <app-confirm-modal [isModalOpen] = "isPopupVisible" [isUpdate] = "isUpdate" (isModalClose) = "closePopup()" [id]="productId" ></app-confirm-modal> -->

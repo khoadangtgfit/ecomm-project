@@ -116,15 +116,6 @@
   ],
   "products": [
     {
-      "name": "example3",
-      "price": "39.99",
-      "color": "Green",
-      "category": "Outdoor",
-      "description": "Example product 3 description.",
-      "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
-      "id": 13
-    },
-    {
       "name": "example4",
       "price": "49.99",
       "color": "Yellow",
