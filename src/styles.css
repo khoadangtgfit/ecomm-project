@@ -16,7 +16,7 @@ body{
 }
 .form-input{
     height: 35px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     padding-left: 10px;
     border: 1px solid blueviolet;
     color: blueviolet
@@ -24,7 +24,8 @@ body{
 .form-buton{
     height: 35px;
     border: 1px solid blueviolet;
-    color: blueviolet
+    color: blueviolet;
+    margin-top: 20px;
 }
 
 .error-message {
@@ -51,4 +52,9 @@ button{cursor: pointer;}
     background-color: #b0c4de; 
     color: #808080; 
     cursor: not-allowed;
+  }
+
+  .error-input {
+    color: red;
+    font-size: 14px;
   }
